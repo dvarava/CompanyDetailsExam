@@ -1,0 +1,18 @@
+<h2 class="my-3">Company Details</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Company Name</th>
+      <th>Street</th>
+      <th>State</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let company of results">
+      <td>{{ company.companyname }}</td>
+      <td>{{ company.streetaddress }}</td>
+      <td>{{ company.state }}</td>
+    </tr>
+  </tbody>
+</table>

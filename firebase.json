@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/company-details-exam/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
